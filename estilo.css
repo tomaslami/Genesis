@@ -22,7 +22,6 @@ body {
 .contenedor-btn:hover {
     transition: 1s;
     transform: scale(1.1);
-    background-color: #f3f3f3;
 }
 
 .boton {
