@@ -25,9 +25,14 @@ nav > a {
     font-family: 'Nunito', bold;
     color: #f3f3f3;
     margin-right: 10px;
+    background-color: #002337;
+    padding: 3px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 nav > a:hover {
+    text-decoration: underline;
     border-color: #5051dd;
     color: #5051dd;
     transition: .7s all;
