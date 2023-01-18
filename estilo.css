@@ -33,8 +33,7 @@ nav > a {
 
 nav > a:hover {
     text-decoration: underline;
-    border-color: #5051dd;
-    color: #5051dd;
+    color: #ddccff;
     transition: .7s all;
    }
 
@@ -545,7 +544,6 @@ footer {
            nav > a {
             font-size: 12px;
             margin-right: 5px;
-            margin-bottom: 20px;
            }
           
     }
