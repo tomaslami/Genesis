@@ -16,7 +16,7 @@ body {
 nav {
     text-align: right;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 450px;
     padding: 30px 50px 0 0;
 
 }
@@ -27,7 +27,7 @@ nav > a {
     color: #f3f3f3;
     margin-right: 10px;
     background-color: #002337;
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -116,6 +116,12 @@ header .texto-header {
     font-weight: 300;
     color: #f3f3f3;
    
+}
+
+.texto-header h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #f3f3f3;
 }
 
 .wave {
@@ -544,7 +550,7 @@ footer {
            }
 
            nav > a {
-
+            padding: 5px;
             font-size: 10px;
             margin-right: 10px;
             margin-bottom: 10px;
