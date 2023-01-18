@@ -377,7 +377,7 @@ footer {
      .contenedor-footer {
         width: 90%;
         flex-direction: column;
-        border: none;
+        border-bottom: 1px solid #f3f3f3;
     }
 
     .content-foo {
@@ -432,7 +432,7 @@ footer {
         .contenedor-footer {
             width: 90%;
             flex-direction: column;
-            border: none;
+            border-bottom: 1px solid #f3f3f3;
         }
 
         .content-foo {
