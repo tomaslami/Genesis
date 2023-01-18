@@ -259,8 +259,8 @@ footer {
     color: #002337;
     border-bottom: 3px solid #5051dd;
     padding-bottom: 5px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .content-foo p {
@@ -272,6 +272,14 @@ footer {
 
 }
 
+.logo-redes {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.logo-fb-gm {
+    width: 40px;
+}
 
 /* Responsive */
 
@@ -361,6 +369,10 @@ footer {
         text-align: center;
     }
 
+
+    .content-foo h4 {
+        margin-top: -15px;
+    }
     @media screen and (max-width:500px) {
        
 
@@ -410,6 +422,10 @@ footer {
         .content-foo {
             margin-bottom: 20px;
             text-align: center;
+        }
+        
+        .content-foo h4 {
+            margin-top: -15px;
         }
     } 
 }
