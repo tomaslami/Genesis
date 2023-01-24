@@ -277,6 +277,7 @@ footer {
     header {
         background-position: center;    
         height: 800px;
+        width: 100%;
     }
     
     .icono-rp {
@@ -375,6 +376,7 @@ footer {
        
         header {
             height: 600px;
+            width: 100%;
         }
 
 
@@ -467,6 +469,10 @@ footer {
 
 
     @media screen and (max-width:350px){
+
+        header {
+            width: 100%;
+        }
 
         .texto-link {
             margin-right: 2px;
