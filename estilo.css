@@ -75,6 +75,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -487,7 +488,7 @@ footer {
 
         .img-cont {
             width: 100%;
-            overflow: hidden;
+            
         }
 
         .icono-rp{
