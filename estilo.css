@@ -377,16 +377,12 @@ footer {
             height: 600px;
         }
 
-        .img-cont{
-            height: 40px;
-            width: 100%;
-        }
 
         .icono-rp {
             margin: 0 auto;
             text-align: center;
             justify-content: center;
-            width: 40%;
+            width: 50%;
             height: 35px;
             background-color: #f3f3f3;
         }
@@ -486,8 +482,8 @@ footer {
         }
 
         .icono-rp{
-            width: 60%;
-            height: 40px;
+            width: 65%;
+            height: 55px;
             background-color: #f3f3f3;
         }
         
