@@ -218,6 +218,7 @@ footer {
 }
 
 .content-foo h4 {
+    padding: 5px;
     color: #002337;
     margin-bottom: -10px;
     margin-top: 30px;
