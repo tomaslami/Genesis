@@ -43,11 +43,16 @@ nav {
 }
 
 .icono-rp {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
     width: 350px;
     height: 80px;
 }
 
-
+.img-cont {
+    background-color: #f3f3f3;
+}
 
 .titulo {
     font-family: 'Nunito', bold;
@@ -271,6 +276,7 @@ footer {
 @media screen and (max-width:1355px) {
     header {
         background-position: center;    
+        height: 800px;
     }
     
     .icono-rp {
@@ -283,7 +289,7 @@ footer {
         width: 90%;
         align-items: center;
         text-align: center;
-        margin-top: -50px;
+        margin-top: 50px;
     }
 
     .texto-header h3 {
@@ -367,9 +373,14 @@ footer {
     }
     @media screen and (max-width:700px) {
        
-        .icono-rp{
+        header {
+            height: 600px;
+        }
+
+        .icono-rp {
             width: 40%;
-            height: 100px;
+            height: 55px;
+            background-color: #f3f3f3;
         }
 
         .texto-link {
@@ -380,19 +391,16 @@ footer {
             margin-top: 8px;
         }
 
+        .texto-header {
+            margin-top: -15px;
+        }
+
         .texto-header h3 {
             margin-bottom: 20px;
             font-size: 17px;
         }
 
-        .contenedor-inicio{
-            width: 90%;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-           }
-        
+    
            nav {
             width: 90%;
             text-align: center;
@@ -406,11 +414,6 @@ footer {
             font-size: 18px;
         }
 
-        .icono-rp {
-            width: 100%;
-            height: 80px;
-            background-color: #f3f3f3;
-        }
 
         /* Service */
 
@@ -475,8 +478,8 @@ footer {
         }
 
         .icono-rp{
-            width: 100%;
-            height: 70px;
+            width: 60%;
+            height: 40px;
             background-color: #f3f3f3;
         }
         
