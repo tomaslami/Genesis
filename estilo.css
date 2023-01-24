@@ -470,7 +470,6 @@ footer {
 
         header {
             width: 100%;
-            overflow: hidden;
         }
 
         .texto-link {
@@ -488,6 +487,7 @@ footer {
 
         .img-cont {
             width: 100%;
+            overflow: hidden;
         }
 
         .icono-rp{
