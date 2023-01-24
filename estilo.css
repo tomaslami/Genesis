@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Nunito', bold;
-    background-color: #7f7fe6;
+    width: 100%;
 }
 
 .texto-header{
@@ -29,7 +29,6 @@ nav {
     bottom: 20px;
     right: 25px;
     padding: 15px;
-    background-color: #2e6329;
 }
 
 .contenedor-btn:hover {
@@ -314,7 +313,7 @@ footer {
 
    nav {
     margin-top: -10px;
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin-right: 450px;
    }
@@ -471,6 +470,7 @@ footer {
 
         header {
             width: 100%;
+            overflow: hidden;
         }
 
         .texto-link {
@@ -486,6 +486,10 @@ footer {
             font-size: 7px;
         }
 
+        .img-cont {
+            width: 100%;
+        }
+
         .icono-rp{
             width: 65%;
             height: 60px;
@@ -495,7 +499,7 @@ footer {
            nav {
             padding: 30px 0 0 0;
             margin-top: 40px;
-            width: 90%;
+            width: 100%;
             margin-right: 435px;
            }
 
@@ -507,7 +511,6 @@ footer {
         .servicio-ind {
             width: 80%;
             text-align: center;
-            border-top: 2px solid #f3f3f3;
             margin-top: 10px;
         }
     
@@ -516,48 +519,4 @@ footer {
             width: 80%;
         }
     }
-
-    @media screen and (max-width:250px){
-        .texto-header h1 {
-            margin-top: -30px;
-        }
-
-        .texto-header h2 {
-            margin-top: 10px;
-        }
-
-        .texto-header h3 {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-
-        .icono-rp{
-            
-            width: 100%;
-            height: 70px;
-           
-        }
-        .contenedor-inicio{
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: -100px;
-           }
-        
-           nav {
-            padding: 30px 0 0 0;
-            margin-top: 40px;
-            width: 90%;
-            margin-right: 435px;
-           }
-
-           nav > a {
-            padding: 5px;
-            font-size: 10px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-           }
-    }
-
 }
