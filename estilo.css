@@ -64,8 +64,8 @@ header {
     width: 100%;
     height: 600px;
     background: #ffa64d;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(27, 92%, 59%, 0.726), hsla(27, 92%, 53%, 0.747));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(27, 92%, 59%, 0.726), hsla(27, 92%, 53%, 0.747)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #f3903f, #f3903f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f3903f, #f3903f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -476,7 +476,7 @@ footer {
         .icono-rp{
             width: 100%;
             height: 70px;
-         
+            background-color: #f3f3f3;
         }
         
            nav {
