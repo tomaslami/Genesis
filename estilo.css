@@ -366,7 +366,11 @@ footer {
         }
 
         .texto-link {
-            font-size: 12px;
+            margin-right: 2px;
+            padding: 5px;
+            width: 100%;
+            font-size: 13px;
+            margin-top: 10px;
         }
 
         .texto-header h3 {
