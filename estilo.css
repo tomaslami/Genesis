@@ -217,6 +217,11 @@ footer {
     color:  #f3f3f3;
 }
 
+.content-foo h4 {
+    color: #002337;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
 
 .content-foo a {
     color: #f3f3f3;
