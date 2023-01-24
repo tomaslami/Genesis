@@ -276,7 +276,7 @@ footer {
 @media screen and (max-width:1355px) {
     header {
         background-position: center;    
-        
+        height: 800px;
         width: 100%;
     }
     
@@ -375,15 +375,12 @@ footer {
     @media screen and (max-width:700px) {
        
         header {
-            
+            height: 600px;
             width: 100%;
         }
 
 
         .icono-rp {
-            margin: 0 auto;
-            text-align: center;
-            justify-content: center;
             width: 50%;
             height: 35px;
             background-color: #f3f3f3;
