@@ -377,7 +377,15 @@ footer {
             height: 600px;
         }
 
+        .img-cont{
+            height: 40px;
+            width: 100%;
+        }
+
         .icono-rp {
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
             width: 40%;
             height: 35px;
             background-color: #f3f3f3;
