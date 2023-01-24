@@ -366,6 +366,7 @@ footer {
         }
 
         .texto-link {
+            margin-left: 3px;
             padding: 5px;
             width: 100%;
             font-size: 15px;
