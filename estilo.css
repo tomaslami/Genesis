@@ -6,10 +6,10 @@
 
 body {
     font-family: 'Nunito', bold;
-    background-color: #5051dd;
+    background-color: #7f7fe6;
 }
 
-.contenedor-inicio{
+.texto-header{
     display: flex;
     width: 100%;
 }
@@ -21,23 +21,6 @@ nav {
     padding: 30px 50px 0 0;
 
 }
-
-nav > a {
-    font-weight: 300;
-    font-family: 'Nunito', bold;
-    color: #f3f3f3;
-    margin-right: 10px;
-    background-color: #002337;
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-nav > a:hover {
-    text-decoration: underline;
-    color: #ddccff;
-    transition: .7s all;
-   }
 
 .contenedor-btn {
     position: fixed;
@@ -64,13 +47,7 @@ nav > a:hover {
     height: 80px;
 }
 
-.contenedor {
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
+
 
 .titulo {
     font-family: 'Nunito', bold;
@@ -112,16 +89,28 @@ header .texto-header {
     
 }
 
-.texto-header h2 {
+.texto-link {
     font-size: 30px;
     font-weight: 300;
     color: #f3f3f3;
    
 }
 
+.texto-link a {
+    margin-right: 10px;
+    font-family: 'Nunito', bold;
+    color: #f3f3f3;
+    text-decoration: underline;
+}
+
+.texto-link a:hover {
+    color: #b3b3b3;
+    transition: all .5s;
+}
+
 .texto-header h3 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     color: #f3f3f3;
 }
@@ -133,80 +122,16 @@ header .texto-header {
 }
 
 
-/* Contenedor Explicativo */
-
-.contenedor__exp {
-    display: flex;
-    justify-content: center;
-}
-
-.contenedor__exp .contenedor-textos-1 {
-    width: 50%;
-}
-
-.contenido-textos h3 {
-    color: #002337;
-    margin-bottom: 15px;    
-}
-
-.contenido-textos-1 h3 span {
-
-    background-color: #f28c39;
-    color: #f3f3f3;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    margin-right: 10px;
-}
-
-.contenido-textos-1 p {
-    margin-top: 10px;
-    margin-left: 20px;
-    padding: 0 0 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-    color: #f3f3f3;
-}
-
-/* About Us */
-
-.contenedor__AboutUs {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.contenedor__AboutUs .contenido-textos {
-    width: 50%;
-}
-
-.contenido-textos h3 {
-    color: #002337;
-    margin-bottom: 15px;    
-}
-
-
-.contenido-textos p {
-    padding: 0 0 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-    color: #f3f3f3;
-}
-
-
 
 /* Service */
 
 .about-service {
-    background-color: #3333ff;
+    background-color: #7f7fe6;
     padding-bottom: 30px;
 }
 
 .contenedor h2 {
-    margin-bottom: 20px;
+    margin-bottom: -10px;
 }
 
 .servicio-cont {
@@ -215,23 +140,28 @@ header .texto-header {
 }
 
 .servicio-info {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
 .info-1 {
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 33%;
+    margin-bottom: 60px;
 }
 
 .servicio-ind {
+    margin-top: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .servicio-ind img {
+    margin-top: 20px;
     width: 20%;
     border-radius: 10px;
     margin-bottom: 25px;
@@ -250,7 +180,7 @@ header .texto-header {
     color: #f3f3f3;
     padding: 10px;
     border-radius: 5px;
-    background-color: #7f7fe6;
+    background-color: #5051dd;
     font-weight: bold;
     text-align: center;
 }
@@ -278,15 +208,10 @@ footer {
 
 .content-foo {
     text-align: center;
+    
 }
 
-.content-foo h4 {
-    color: #002337;
-    border-bottom: 3px solid #5051dd;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
+
 
 .content-foo p {
     color:  #f3f3f3;
@@ -295,25 +220,37 @@ footer {
 
 .content-foo a {
     color: #f3f3f3;
-
+    
 }
 
 .logo-redes {
     width: 50px;
     border-radius: 50%;
-    margin-bottom: -5px;
+    margin-bottom: -2px;
+    margin-top: 10px;
 }
 
-.logo-fb-gm {
+.logo-gm {
     width: 40px;
-    margin-bottom: 5px;
+}
+
+.logo-fb {
+    width: 40px;
+    margin-top: 16px;
+    margin-bottom: 8px;
 }
 
 .texto-redes {
     font-family: 'Nunito', bold;
     color: #f3f3f3;
+    border-bottom: 3px solid #5051dd;
+    width: 100%;
 }
 
+.texto-redes-ubi {
+    margin-top: 10px;
+    border-bottom: none;
+}
 
 .titulo-final{
     font-family: 'Nunito', bold;
@@ -330,18 +267,33 @@ footer {
     }
     
     .icono-rp {
-        width: 60%;
-        height: 110px;
+        width: 40%;
+        height: 100px;
     }
 
+    .texto-header {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        margin-top: -50px;
+    }
 
-   .contenedor-inicio{
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: -100px;
+    .texto-header h3 {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        margin-top: 140px;
+    }
+
+    .texto-link{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: -130px;
    }
 
    nav {
@@ -350,30 +302,6 @@ footer {
     text-align: center;
     margin-right: 450px;
    }
-
-    /* Contenedor Explicativo */
-
-    .contenedor__exp {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Exp .contenedor-textos-1 {
-        width: 90%;
-    }
-
-    /* Sobre Nosotros */
-
-    .contenedor__AboutUs {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .AboutUs .contenido-textos{
-        width: 90%;
-    }
 
 
     /* Service */
@@ -392,7 +320,7 @@ footer {
     }
     
     .info-1 {
-        width: 90%;
+        width: 55%;
     }
     
 
@@ -402,7 +330,7 @@ footer {
     }
 
     .servicio-ind img {
-        width: 90%;
+        width: 30%;
     }
 
     .servicio-ind:nth-child(1) .servicio-ind:nth-child(2) {
@@ -416,7 +344,7 @@ footer {
      /* Footer */
 
      .contenedor-footer {
-        width: 90%;
+        width: 40%;
         flex-direction: column;
         border-bottom: 1px solid #f3f3f3;
     }
@@ -433,8 +361,8 @@ footer {
     @media screen and (max-width:700px) {
        
         .icono-rp{
-            width: 60%;
-            height: 80px;
+            width: 40%;
+            height: 100px;
         }
 
         .contenedor-inicio{
@@ -505,78 +433,27 @@ footer {
     }
 
 
-    @media screen and (max-width:700px){
-
-        .texto-header h1 {
-            margin-top: -30px;
-        }
-
-        .texto-header h2 {
-            margin-top: 10px;
-        }
-
-        .texto-header h3 {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-
-        .icono-rp{
-           
-            width: 70%;
-            height: 60px;
-           
-        }
-        .contenedor-inicio{
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: -100px;
-           }
-        
-           nav {
-            padding: 30px 0 0 0;
-            margin-top: 40px;
-            width: 90%;
-            margin-right: 435px;
-           }
-
-           nav > a {
-            padding: 5px;
-            font-size: 10px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-           }
-          
-    }
 
     @media screen and (max-width:350px){
-        .texto-header h1 {
-            margin-top: -30px;
-        }
 
-        .texto-header h2 {
+        .texto-link {
+            margin-right: 2px;
+            padding: 5px;
+            width: 100%;
+            font-size: 13px;
             margin-top: 10px;
-        }
+        }                                               
 
         .texto-header h3 {
-            margin-top: 10px;
-            font-size: 18px;
+            margin-bottom: 20px;
+            font-size: 15px;
         }
 
         .icono-rp{
-         
             width: 100%;
             height: 70px;
          
         }
-        .contenedor-inicio{
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: -100px;
-           }
         
            nav {
             padding: 30px 0 0 0;
@@ -585,12 +462,22 @@ footer {
             margin-right: 435px;
            }
 
-           nav > a {
-            padding: 5px;
-            font-size: 10px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-           }
+        .info-1 {
+            width: 80%;
+        }
+        
+    
+        .servicio-ind {
+            width: 80%;
+            text-align: center;
+            border-top: 2px solid #f3f3f3;
+            margin-top: 10px;
+        }
+    
+        .servicio-ind img {
+            margin-top: 30px;
+            width: 80%;
+        }
     }
 
     @media screen and (max-width:250px){
